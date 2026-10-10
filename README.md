@@ -4,5 +4,12 @@ The laser monitor is a system that is intended to interface with MakeACS-control
 
 This project is an improvement over the previous Laser Monitor, which can be found [here](https://github.com/rit-construct-makerspace/laser-monitor). 
 
+Improvements over previous version:
+* Fail-on fume extractor controls; if the Laser Monitor loses power it turns on the fume extractor.
+* Extractor power monitoring; monitors for if the fume extractor is powered on.
+* Air control; terminals to attach an air solenoid, to turn off air assist when machine is not in use.
+* Backup emergency light; if the laser is powered on but not the Laser Monitor, an indicator emergency light will flash. 
+* MakeACS 3.0 interface; implements MakeACS 3.0 communication and power interface, for communication with newer hardware.
+
 ## License
 This project is licensed under the CERN-OHL-S 2.0 License. See LIECENSE.txt for more information.
